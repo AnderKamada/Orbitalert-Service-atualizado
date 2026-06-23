@@ -6,7 +6,7 @@ pool:
 
 variables:
   imageRepository: 'orbitalert-service'
-  containerRegistry: 'acr-orbitalert-com'
+  containerRegistry: 'acr-orbitalert-conn'
   dockerfilePath: 'Dockerfile'
   tag: '$(Build.BuildId)'
 
